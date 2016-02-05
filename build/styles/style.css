@@ -1,0 +1,50 @@
+@import url(https://fonts.googleapis.com/css?family=Dancing+Script);
+.container {
+  background-color: #c7c7c7;
+  width: 500px;
+  margin: 0 auto; }
+
+.header {
+  background-color: #171717;
+  color: white;
+  overflow: hidden; }
+
+.logo {
+  float: left;
+  width: 50px;
+  padding-left: 15px;
+  text-shadow: 1px 1px 30px whitesmoke;
+  font-family: 'Ubuntu', sans-serif; }
+
+mark.fuchsia {
+  color: fuchsia;
+  background: none;
+  font-family: 'Dancing Script', sans-serif; }
+
+.header-title {
+  float: left;
+  width: 50%;
+  padding-top: 10px;
+  padding-left: 15px; }
+
+li {
+  border-width: 1px;
+  border-radius: 4px;
+  margin-bottom: 2px;
+  height: 30px;
+  width: 400px;
+  padding-top: 6px;
+  background-color: #edeced;
+  list-style: none;
+  text-align: center;
+  font-size: large;
+  font-weight: bold;
+  box-shadow: 5px 5px 5px #888888; }
+
+.category {
+  background-color: #ac378d;
+  color: white; }
+
+.footer {
+  background-color: #171717;
+  padding: 35px; }
