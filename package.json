@@ -1,0 +1,16 @@
+{
+  "name": "sexy-shopping-list",
+  "version": "1.0.0",
+  "description": "shopping-list",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo Error: no test specified",
+    "compile:styles": "node-sass app/styles/style.scss build/styles/style.css"
+  },
+  "author": "James Lasso",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^3.4.2"
+  }
+}
+

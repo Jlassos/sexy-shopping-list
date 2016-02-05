@@ -1,5 +1,7 @@
 .container {
     background-color: #c7c7c7;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .header {
@@ -11,6 +13,7 @@
     float: left;
     width: 50px;
     padding-left: 15px;
+    text-shadow: 1px 1px 25px whitesmoke;
 }
 mark.fuchsia {
     color: fuchsia;
