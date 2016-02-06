@@ -55,7 +55,10 @@ li {
 
 #form {
   float: right;
-  width: 200px; }
+  width: 300px; }
+
+#alert {
+  width: 100px; }
 
 #add {
   float: right; }
