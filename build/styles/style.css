@@ -27,6 +27,9 @@ mark.sexy-color {
   padding-left: 25px;
   font-family: "Roboto Slab", sans-serif; }
 
+.container-fluid {
+  overflow: hidden; }
+
 li {
   border-width: 1px;
   border-radius: 4px;
