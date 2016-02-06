@@ -23,10 +23,8 @@ $(document).ready(function() {
         return false;
 
     });
-    $('#remove-last').click(function () {
-        window.localStorage.removeItem('');
-        location.reload();
+    $('li').click(function(e){
+        $(e.target).remove();
         return false;
-
     });
 });
