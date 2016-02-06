@@ -10,46 +10,46 @@ body {
 }
 
 .header {
-    background-color: $header-footer-color;
+    background-color: $navbar-bgc;
     color: white;
     overflow: hidden;
 }
 .logo {
     text-shadow: 1px 1px 30px whitesmoke;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: $logo-font, sans-serif;
     padding-bottom: 15px;
 }
-mark.fuchsia {
+mark.sexy-color {
     color: $sexy-color;
     background: none;
-    font-family: 'Dancing Script', sans-serif;
+    font-family: $sexy-font, sans-serif;
 }
 .header-title {
     padding-top: 10px;
     padding-left: 25px;
-    font-family: 'Roboto Slab', sans-serif;
+    font-family: $header-font, sans-serif;
 }
 li {
     border-width: 1px;
     border-radius: 4px;
     margin-top: 2px;
     margin-bottom: 2px;
-    height: 50px;
+    height: 70px;
     width: 350px;
-    padding-top: 6px;
+    padding-top: 20px;
     background-color: #edeced;
     list-style: none;
     text-align: center;
-    font-size: large;
+    font-size: 25px;
     font-weight: bold;
     box-shadow: 5px 5px 5px #888888;
 }
 .category {
-    background-color: #ac378d;
+    background-color: $category-color;
     color: white;
 }
 .footer {
-    background-color: #171717;
+    background-color: $navbar-bgc;
     padding: 35px;
 }
 
