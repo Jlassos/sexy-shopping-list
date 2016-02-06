@@ -52,3 +52,12 @@ li {
 .footer {
   background-color: #171717;
   padding: 35px; }
+
+#form {
+  float: right; }
+
+#alert {
+  float: right; }
+
+#clear {
+  float: left; }
