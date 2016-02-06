@@ -29,6 +29,10 @@ mark.sexy-color {
     padding-left: 25px;
     font-family: $header-font, sans-serif;
 }
+.container-fluid {
+    overflow: hidden;
+
+}
 li {
     border-width: 1px;
     border-radius: 4px;
@@ -37,7 +41,7 @@ li {
     height: 70px;
     width: 350px;
     padding-top: 20px;
-    background-color: #edeced;
+    background-color: $item-bgc;
     list-style: none;
     text-align: center;
     font-size: 25px;
@@ -45,7 +49,7 @@ li {
     box-shadow: 5px 5px 5px #888888;
 }
 .category {
-    background-color: $category-color;
+    background-color: $category-bgc;
     color: white;
 }
 .footer {
