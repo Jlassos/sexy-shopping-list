@@ -54,10 +54,11 @@ li {
   padding: 35px; }
 
 #form {
-  float: right; }
+  float: right;
+  width: 200px; }
 
 #alert {
   float: right; }
 
-#clear {
-  float: left; }
+#add {
+  float: right; }
