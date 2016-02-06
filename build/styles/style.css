@@ -14,31 +14,31 @@ body {
 
 .logo {
   text-shadow: 1px 1px 30px whitesmoke;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   padding-bottom: 15px; }
 
-mark.fuchsia {
+mark.sexy-color {
   color: fuchsia;
   background: none;
-  font-family: 'Dancing Script', sans-serif; }
+  font-family: "Dancing Script", sans-serif; }
 
 .header-title {
   padding-top: 10px;
   padding-left: 25px;
-  font-family: 'Roboto Slab', sans-serif; }
+  font-family: "Roboto Slab", sans-serif; }
 
 li {
   border-width: 1px;
   border-radius: 4px;
   margin-top: 2px;
   margin-bottom: 2px;
-  height: 50px;
+  height: 70px;
   width: 350px;
-  padding-top: 6px;
+  padding-top: 20px;
   background-color: #edeced;
   list-style: none;
   text-align: center;
-  font-size: large;
+  font-size: 25px;
   font-weight: bold;
   box-shadow: 5px 5px 5px #888888; }
 
