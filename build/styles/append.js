@@ -25,6 +25,7 @@ $(document).ready(function() {
     });
     $('li').click(function(e){
         $(e.target).remove();
+        window.localStorage.removeItem(key);
         return false;
     });
 });
