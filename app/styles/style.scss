@@ -1,9 +1,9 @@
 @import "./variables.scss";
 @import url(https://fonts.googleapis.com/css?family=Dancing+Script);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab);
 .container {
     background-color: $background-color;
-    width: 500px;
-    margin: 0 auto;
+    overflow: hidden;
 }
 
 .header {
@@ -12,11 +12,9 @@
     overflow: hidden;
 }
 .logo {
-    float: left;
-    width: 50px;
-    padding-left: 15px;
     text-shadow: 1px 1px 30px whitesmoke;
     font-family: 'Ubuntu', sans-serif;
+    padding-bottom: 15px;
 }
 mark.fuchsia {
     color: $fucshia;
@@ -24,17 +22,17 @@ mark.fuchsia {
     font-family: 'Dancing Script', sans-serif;
 }
 .header-title {
-    float: left;
-    width: 50%;
     padding-top: 10px;
-    padding-left: 15px;
+    padding-left: 25px;
+    font-family: 'Roboto Slab', sans-serif;
 }
 li {
     border-width: 1px;
     border-radius: 4px;
+    margin-top: 2px;
     margin-bottom: 2px;
     height: 30px;
-    width: 400px;
+    width: 350px;
     padding-top: 6px;
     background-color: #edeced;
     list-style: none;
