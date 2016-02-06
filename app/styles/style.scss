@@ -5,6 +5,8 @@ body {
     background-color: $background-color;
     width: 100%;
     min-height: 100%;
+    padding-top: $navbar-padding;
+    padding-bottom: $navbar-padding;
 }
 
 .header {
@@ -18,7 +20,7 @@ body {
     padding-bottom: 15px;
 }
 mark.fuchsia {
-    color: $fucshia;
+    color: $sexy-color;
     background: none;
     font-family: 'Dancing Script', sans-serif;
 }
@@ -32,7 +34,7 @@ li {
     border-radius: 4px;
     margin-top: 2px;
     margin-bottom: 2px;
-    height: 30px;
+    height: 50px;
     width: 350px;
     padding-top: 6px;
     background-color: #edeced;
@@ -49,4 +51,8 @@ li {
 .footer {
     background-color: #171717;
     padding: 35px;
+}
+
+.button-box {
+
 }

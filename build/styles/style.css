@@ -3,7 +3,9 @@
 body {
   background-color: #c7c7c7;
   width: 100%;
-  min-height: 100%; }
+  min-height: 100%;
+  padding-top: 110px;
+  padding-bottom: 110px; }
 
 .header {
   background-color: #171717;
@@ -30,7 +32,7 @@ li {
   border-radius: 4px;
   margin-top: 2px;
   margin-bottom: 2px;
-  height: 30px;
+  height: 50px;
   width: 350px;
   padding-top: 6px;
   background-color: #edeced;
