@@ -1,9 +1,10 @@
 @import "./variables.scss";
 @import url(https://fonts.googleapis.com/css?family=Dancing+Script);
 @import url(https://fonts.googleapis.com/css?family=Roboto+Slab);
-.container {
+body {
     background-color: $background-color;
-    overflow: hidden;
+    width: 100%;
+    min-height: 100%;
 }
 
 .header {
