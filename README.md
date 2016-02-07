@@ -1,4 +1,4 @@
-# Sexy Shopping List
+# [Sexy Shopping List](http://jlassos.github.io/sexy-shopping-list/)
 A simple web app for to create an easy to use shopping list on mobile devices.
 
 # To do
