@@ -43,7 +43,11 @@ li {
   text-align: center;
   font-size: 25px;
   font-weight: bold;
-  box-shadow: 5px 5px 5px #888888; }
+  box-shadow: 5px 5px 5px #888888;
+  cursor: pointer; }
+
+li:hover {
+  background-color: rgba(0, 0, 0, 0.5); }
 
 .category {
   background-color: #ac378d;
@@ -59,3 +63,7 @@ li {
 
 #add {
   float: right; }
+
+.error {
+  border-width: 1px;
+  border-color: red; }
