@@ -10,6 +10,7 @@ $(document).ready(function() {
         $('#form')[0].reset();
         var items = $('#items').html();
         localStorage.setItem('items', items);
+        location.reload();
         return false;
     });
 
@@ -25,7 +26,6 @@ $(document).ready(function() {
     });
     $('li').click(function(e){
         $(e.target).remove();
-        window.localStorage.removeItem(key);
         return false;
     });
 });
