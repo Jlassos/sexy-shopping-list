@@ -10,6 +10,7 @@ $(document).ready(function() {
         $('#form')[0].reset();
         var items = $('#items').html();
         localStorage.setItem('items', items);
+        $('#items').slideUp();
         location.reload();
         return false;
     });
