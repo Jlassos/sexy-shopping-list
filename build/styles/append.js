@@ -3,7 +3,7 @@ $(document).ready(function() {
         var items = $('#items').html();
         localStorage.setItem('items', items);
     };
-
+    //Add an item
     $('#add').click(function () {
         var itemName = $('#itemName').val();
         if ($("#itemName").val() == '') {
@@ -13,23 +13,21 @@ $(document).ready(function() {
             return false;
         }
         $('#items').append("<li>" + itemName + "</li>");
-        //$('#form')[0].reset();
         $("#itemName").val('');
         write_list_to_storage();
-        //location.reload();
         return false;
     });
 
     if (localStorage.getItem('items')) {
         $('#items').html(localStorage.getItem('items'));
     }
-
+    // Clear All storage
     $('#clear').click(function () {
         window.localStorage.clear();
         location.reload();
         return false;
     });
-
+    // Click to remove item
     $("body").on('click', "li", function(e){
         $(e.target).remove();
         write_list_to_storage();

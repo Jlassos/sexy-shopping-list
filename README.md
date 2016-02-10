@@ -9,4 +9,3 @@ A simple web app for to create an easy to use shopping list on mobile devices.
 * [] add undo remove button
 * [X] ability to clear all items
 * ...and more
-
