@@ -10,6 +10,5 @@ A simple web app for to create an easy to use shopping list on mobile devices.
 * [X] ability to clear all items
 <<<<<<< HEAD
 * ...and more
+
 =======
-* ...and more
->>>>>>> 3a0920c3107d9aca78d287b82e5f53a95687a0a5
