@@ -5,15 +5,19 @@
   "main": "index.js",
   "scripts": {
     "precompile": "rm -rf build/*",
+    "start": "npm run server & npm run watch",
+    "server": "live-server --watch=index.html,build",
     "compile": "npm run compile:styles && npm run compile:js",
-    "compile:js":"cp -r app/js build/js",
+    "compile:js": "cp -r app/js build/js",
     "compile:styles": "node-sass app/styles/style.scss build/styles/style.css",
-	"watch": " npm run compile:styles app/styles -- -w"
+    "watch": "watch \"npm run watch:js & npm run watch:styles\" app/styles",
+    "watch:styles": "watch \"npm run compile:styles\" app/styles",
+    "watch:js": "watch \"npm run compile:js\" app/js"
   },
   "author": "James Lasso",
   "license": "ISC",
   "dependencies": {
+    "live-server": "^0.9.1",
     "node-sass": "^3.4.2"
   }
 }
-
