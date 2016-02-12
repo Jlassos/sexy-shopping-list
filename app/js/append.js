@@ -20,17 +20,17 @@ $(document).ready(function() {
 
     if (localStorage.getItem('items')) {
         $('#items').html(localStorage.getItem('items'));
-    }
-    // Clear All storage
-    $('#clear').click(function () {
-        window.localStorage.clear();
-        location.reload();
-        return false;
-    });
-    // Click to remove item
-    $("body").on('click', "li", function(e){
-        $(e.target).remove();
-        write_list_to_storage();
-        return false;
-    });
+}
+// Clear All storage
+$('#clear').click(function () {
+    window.localStorage.clear();
+    location.reload();
+    return false;
+});
+// Click to remove item
+$("body").on('click', "li", function(e){
+    $(e.target).remove();
+    write_list_to_storage();
+    return false;
+});
 });

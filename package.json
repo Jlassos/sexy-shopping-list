@@ -4,8 +4,11 @@
   "description": "shopping-list",
   "main": "index.js",
   "scripts": {
-    "test": "echo Error: no test specified",
-    "compile:styles": "node-sass app/styles/style.scss build/styles/style.css"
+    "precompile": "rm -rf build/*",
+    "compile": "npm run compile:styles && npm run compile:js",
+    "compile:js":"cp -r app/js build/js",
+    "compile:styles": "node-sass app/styles/style.scss build/styles/style.css",
+	"watch": " npm run compile:styles app/styles -- -w"
   },
   "author": "James Lasso",
   "license": "ISC",
